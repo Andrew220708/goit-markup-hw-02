@@ -9,21 +9,19 @@ body {
 }
 
 /* -----------HEADER---------- */
-.logo-studio {
+
+.header-logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
 
+.logo-studio {
   color: #000000;
 }
 .logo-web {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: #2196f3;
 }
 .list {
@@ -69,13 +67,11 @@ footer {
   color: #ffffff;
 }
 .hero-btn {
+    font-family:inherit
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
+    letter-spacing: 0.06em;
 
   color: #ffffff;
 }
@@ -83,7 +79,6 @@ footer {
 /* ----конкурентные примущества -----*/
 
 .features-after-title {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -129,8 +124,6 @@ footer {
   color: var(--main-title-color);
 }
 .team-after-title {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -138,7 +131,6 @@ footer {
 }
 /* ----footer---- */
 .footer-adress {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -147,7 +139,6 @@ footer {
   color: #ffffff;
 }
 .footer-link {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -164,10 +155,13 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-logo-studio {
+.footer-logo {
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+.footer-logo-studio {
   color: #ffffff;
 }
 
